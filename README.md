@@ -1,27 +1,17 @@
-# Takeoff Lesson 1
+# Takeoff - OpenAI Assistants
 
-In this lesson we learn how to use the OpenAI API to generate a chat completion.
-
-Generating a chat completion is the foundation of almost everything in building AI applications.
+In this lesson we learn how to to make AI agents with the OpenAI Assistants API.
 
 ## Install Packages
 
 ```bash
-npm i -D openai dotenv gpt-tokenizer typescript
+npm i
 ```
 
 ## Run Code
 
-Your code is in the `index.ts` file.
+Your code is in the `me` folder.
 
-```bash
-npm run start
-```
-
-The final code is in the `final.ts` file.
-
-```bash
-npm run final
-```
+The example code is in the `examples` folder.
 
 ## Requirements

@@ -5,8 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node dist/index.js",
-    "final": "tsc && node dist/final.js"
+    "exercise-1": "tsc && node dist/me/exercise-1.js",
+    "exercise-1-example": "tsc && node dist/examples/exercise-1.js"
   },
   "author": "Mckay Wrigley",
   "license": "ISC",
