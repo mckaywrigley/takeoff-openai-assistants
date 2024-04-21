@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "openai-assistants",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "final": "tsc && node dist/final.js"
+  },
+  "author": "Mckay Wrigley",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.38.2",
+    "typescript": "^5.4.5"
+  }
+}
