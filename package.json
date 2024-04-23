@@ -1,21 +1,20 @@
 {
-  "type": "module",
   "name": "openai-assistants",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "create-assistant-example": "tsc && node distcreate-assistant-example.js",
-    "list-assistants-example": "tsc && node dist/list-assistants-example.js",
-    "retrieve-assistant-example": "tsc && node dist/retrieve-assistant-example.js",
-    "modify-assistant-example": "tsc && node dist/modify-assistant-example.js",
-    "delete-assistant-example": "tsc && node dist/delete-assistant-example.js"
+    "assistants-create-example": "tsx examples/assistants/create-assistant-example.ts",
+    "assistants-list-example": "tsx examples/assistants/list-assistants-example.ts",
+    "assistants-retrieve-example": "tsx examples/assistants/retrieve-assistant-example.ts",
+    "assistants-modify-example": "tsx examples/assistants/modify-assistant-example.ts",
+    "assistants-delete-example": "tsx examples/assistants/delete-assistant-example.ts"
   },
   "author": "Mckay Wrigley",
   "license": "ISC",
   "devDependencies": {
     "dotenv": "^16.4.5",
     "openai": "^4.38.2",
-    "typescript": "^5.4.5"
+    "tsx": "^4.7.2"
   }
 }

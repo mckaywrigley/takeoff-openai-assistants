@@ -1,6 +1,22 @@
-# Takeoff - OpenAI Assistants
+# Takeoff: OpenAI Assistants
 
-In this lesson we learn how to to make AI agents with the OpenAI Assistants API.
+In this module we learn how to to make AI agents with the OpenAI Assistants API.
+
+## Prerequisites
+
+You will need an OpenAI API Key.
+
+Get one [here](https://platform.openai.com/api-keys).
+
+Copy the `.env.example` file to `.env` and fill in the API key.
+
+```bash
+cp .env.example .env
+```
+
+```bash
+OPENAI_API_KEY=your-openai-api-key
+```
 
 ## Install Packages
 
@@ -10,8 +26,6 @@ npm i
 
 ## Run Code
 
-Your code is in the `me` folder.
-
 The example code is in the `examples` folder.
 
-## Requirements
+Your code is in the `me` folder.
