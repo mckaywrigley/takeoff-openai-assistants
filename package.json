@@ -9,7 +9,11 @@
     "assistants-list-example": "tsx examples/assistants/list-assistants-example.ts",
     "assistants-retrieve-example": "tsx examples/assistants/retrieve-assistant-example.ts",
     "assistants-modify-example": "tsx examples/assistants/modify-assistant-example.ts",
-    "assistants-delete-example": "tsx examples/assistants/delete-assistant-example.ts"
+    "assistants-delete-example": "tsx examples/assistants/delete-assistant-example.ts",
+    "threads-create-example": "tsx examples/threads/create-thread-example.ts",
+    "threads-retrieve-example": "tsx examples/threads/retrieve-thread-example.ts",
+    "threads-modify-example": "tsx examples/threads/modify-thread-example.ts",
+    "threads-delete-example": "tsx examples/threads/delete-thread-example.ts"
   },
   "author": "Mckay Wrigley",
   "license": "MIT",

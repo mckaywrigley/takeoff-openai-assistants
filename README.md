@@ -2,6 +2,12 @@
 
 In this module we learn how to to make AI agents with the OpenAI Assistants API.
 
+## Resources
+
+- [Takeoff](https://JoinTakeoff.com)
+- [OpenAI Docs](https://platform.openai.com/docs/assistants/overview)
+- [OpenAI API Reference](https://platform.openai.com/docs/api-reference/assistants)
+
 ## Prerequisites
 
 You will need an OpenAI API Key.
