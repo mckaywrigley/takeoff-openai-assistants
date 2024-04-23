@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "takeoff-openai-assistants",
   "version": "1.0.0",
   "description": "In this module we learn how to to make AI agents with the OpenAI Assistants API.",
@@ -8,8 +9,7 @@
     "assistants-list-example": "tsx examples/assistants/list-assistants-example.ts",
     "assistants-retrieve-example": "tsx examples/assistants/retrieve-assistant-example.ts",
     "assistants-modify-example": "tsx examples/assistants/modify-assistant-example.ts",
-    "assistants-delete-example": "tsx examples/assistants/delete-assistant-example.ts",
-    "assistants-create-me": "tsx examples/assistants/create-assistant-me.ts"
+    "assistants-delete-example": "tsx examples/assistants/delete-assistant-example.ts"
   },
   "author": "Mckay Wrigley",
   "license": "MIT",
