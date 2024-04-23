@@ -5,8 +5,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "exercise-1": "tsc && node dist/me/exercise-1.js",
-    "exercise-1-example": "tsc && node dist/examples/exercise-1.js"
+    "create-assistant-example": "tsc && node distcreate-assistant-example.js",
+    "list-assistants-example": "tsc && node dist/list-assistants-example.js",
+    "retrieve-assistant-example": "tsc && node dist/retrieve-assistant-example.js",
+    "modify-assistant-example": "tsc && node dist/modify-assistant-example.js",
+    "delete-assistant-example": "tsc && node dist/delete-assistant-example.js"
   },
   "author": "Mckay Wrigley",
   "license": "ISC",
