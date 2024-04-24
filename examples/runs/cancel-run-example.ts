@@ -8,11 +8,9 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const vectorStore = await openai.beta.vectorStores.update("vs_abc123", {
-    name: "Support FAQ"
-  });
+  const run = await openai.beta.threads.runs.cancel("thread_abc123", "run_abc123");
 
-  console.log(vectorStore);
+  console.log(run);
 }
 
 main();

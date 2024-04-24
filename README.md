@@ -8,6 +8,12 @@ In this module we learn how to to make AI agents with the OpenAI Assistants API.
 - [OpenAI Docs](https://platform.openai.com/docs/assistants/overview)
 - [OpenAI API Reference](https://platform.openai.com/docs/api-reference/assistants)
 
+## Prompts
+
+We recommend using [Cursor](https://cursor.sh/) to write code.
+
+Use the files in the `prompts` folder to help you in this module.
+
 ## Prerequisites
 
 You will need an OpenAI API Key.
