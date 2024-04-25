@@ -8,8 +8,8 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const vectorStore = await openai.beta.vectorStores.update("vs_abc123", {
-    name: "Support FAQ"
+  const vectorStore = await openai.beta.vectorStores.update("vs_SxpuAWEq6SOfebCoXArc1WFl", {
+    name: "Support FAQ V2"
   });
 
   console.log(vectorStore);

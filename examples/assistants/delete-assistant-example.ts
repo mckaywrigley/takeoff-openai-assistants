@@ -8,8 +8,9 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const response = await openai.beta.assistants.del("asst_tPjSEL3QVAEFz7F4k158LQGf");
+  const response = await openai.beta.assistants.del("asst_U4NGfVhaElGaO5wGBr29OWe0");
 
   console.log(response);
 }
+
 main();

@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const threadMessages = await openai.beta.threads.messages.create("thread_abc123", { role: "user", content: "How does AI work? Explain it in simple terms." });
+  const threadMessages = await openai.beta.threads.messages.create("thread_loVB9IhqItKDULzckd4OcvEx", { role: "user", content: "How does AI work? Explain it in simple terms." });
 
   console.log(threadMessages);
 }

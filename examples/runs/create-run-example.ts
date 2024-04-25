@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const run = await openai.beta.threads.runs.create("thread_abc123", { assistant_id: "asst_abc123" });
+  const run = await openai.beta.threads.runs.create("thread_loVB9IhqItKDULzckd4OcvEx", { assistant_id: "asst_6AF9EmaNY8lraxye7Sx5LxJC" });
 
   console.log(run);
 }

@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const myUpdatedAssistant = await openai.beta.assistants.update("asst_tPjSEL3QVAEFz7F4k158LQGf", {
+  const myUpdatedAssistant = await openai.beta.assistants.update("asst_9cjHRr99eAI8XKGoi4faHO79", {
     model: "gpt-4-turbo",
     name: "HR Helper",
     description: "You are an HR bot, and you have access to files to answer employee questions about company policies. Always response with info from either of the files.",
@@ -18,7 +18,7 @@ async function main() {
     metadata: {},
     temperature: 0.7,
     top_p: 1,
-    response_format: { type: "json_object" }
+    response_format: "auto"
   });
 
   console.log(myUpdatedAssistant);

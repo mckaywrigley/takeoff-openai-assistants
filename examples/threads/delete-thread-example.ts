@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const response = await openai.beta.threads.del("thread_oR2RtBltL9q7jQUlw1m2y7Fx");
+  const response = await openai.beta.threads.del("thread_NTRSrmzXkbLcfHpHgZYT2kaH");
 
   console.log(response);
 }

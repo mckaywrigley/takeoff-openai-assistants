@@ -8,9 +8,11 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const threadMessages = await openai.beta.threads.messages.list("thread_abc123");
+  const threadMessages = await openai.beta.threads.messages.list("thread_0v7lp0mG1SCTlXNVX0crlQn3");
 
   console.log(threadMessages.data);
+
+  console.log(threadMessages.data[0].content[0]);
 }
 
 main();

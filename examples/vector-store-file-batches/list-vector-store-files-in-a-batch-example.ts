@@ -8,9 +8,9 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const vectorStoreFiles = await openai.beta.vectorStores.fileBatches.listFiles("vs_abc123", "vsfb_abc123");
+  const vectorStoreFiles = await openai.beta.vectorStores.fileBatches.listFiles("vs_3blTOP2OL9LTMNZrf0RekMep", "vsfb_b12fc3d7cad34fbaa52bfa96854a51d6");
 
-  console.log(vectorStoreFiles);
+  console.log(vectorStoreFiles.data);
 }
 
 main();

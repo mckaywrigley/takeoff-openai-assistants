@@ -8,8 +8,9 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const runStep = await openai.beta.threads.runs.steps.list("thread_abc123", "run_abc123");
-  console.log(runStep);
+  const runStep = await openai.beta.threads.runs.steps.list("thread_0v7lp0mG1SCTlXNVX0crlQn3", "run_VT57iDHN2vojsPN1Ky0Nsfrp");
+
+  console.log(runStep.data);
 }
 
 main();

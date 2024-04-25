@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const myAssistant = await openai.beta.assistants.retrieve("asst_tPjSEL3QVAEFz7F4k158LQGf");
+  const myAssistant = await openai.beta.assistants.retrieve("asst_VY3BYLpzpSI1pidjxSqfN6ta");
 
   console.log(myAssistant);
 }

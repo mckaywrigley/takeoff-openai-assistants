@@ -10,7 +10,7 @@ const openai = new OpenAI({
 async function main() {
   const vectorStores = await openai.beta.vectorStores.list();
 
-  console.log(vectorStores);
+  console.log(vectorStores.data);
 }
 
 main();

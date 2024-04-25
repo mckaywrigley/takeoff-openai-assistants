@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const message = await openai.beta.threads.messages.update("thread_abc123", "msg_abc123", {
+  const message = await openai.beta.threads.messages.update("thread_loVB9IhqItKDULzckd4OcvEx", "msg_oFrYWbymSxYxC9gazNbjoMxu", {
     metadata: {
       modified: "true",
       user: "abc123"

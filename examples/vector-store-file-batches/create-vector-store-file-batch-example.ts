@@ -8,8 +8,8 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const myVectorStoreFileBatch = await openai.beta.vectorStores.fileBatches.create("vs_abc123", {
-    file_ids: ["file-abc123", "file-abc456"]
+  const myVectorStoreFileBatch = await openai.beta.vectorStores.fileBatches.create("vs_3blTOP2OL9LTMNZrf0RekMep", {
+    file_ids: ["file-np34t0FdpwVany4SrAkWqaSK"]
   });
 
   console.log(myVectorStoreFileBatch);

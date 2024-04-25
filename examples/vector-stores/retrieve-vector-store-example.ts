@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const vectorStore = await openai.beta.vectorStores.retrieve("vs_abc123");
+  const vectorStore = await openai.beta.vectorStores.retrieve("vs_SxpuAWEq6SOfebCoXArc1WFl");
 
   console.log(vectorStore);
 }
