@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const deletedVectorStoreFile = await openai.beta.vectorStores.files.del("vs_3blTOP2OL9LTMNZrf0RekMep", "file-np34t0FdpwVany4SrAkWqaSK");
+  const deletedVectorStoreFile = await openai.beta.vectorStores.files.del("vs_p3bPEVRhz16PbSG0uo9R0i97", "file-np34t0FdpwVany4SrAkWqaSK");
 
   console.log(deletedVectorStoreFile);
 }

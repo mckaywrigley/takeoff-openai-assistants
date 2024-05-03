@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const vectorStoreFileBatch = await openai.beta.vectorStores.fileBatches.retrieve("vs_3blTOP2OL9LTMNZrf0RekMep", "vsfb_b12fc3d7cad34fbaa52bfa96854a51d6");
+  const vectorStoreFileBatch = await openai.beta.vectorStores.fileBatches.retrieve("vs_p3bPEVRhz16PbSG0uo9R0i97", "vsfb_e7be0809e7d44abc99b76ab956a10992");
 
   console.log(vectorStoreFileBatch);
 }

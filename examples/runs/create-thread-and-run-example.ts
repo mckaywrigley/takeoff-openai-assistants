@@ -9,9 +9,9 @@ const openai = new OpenAI({
 
 async function main() {
   const run = await openai.beta.threads.createAndRun({
-    assistant_id: "asst_6AF9EmaNY8lraxye7Sx5LxJC",
+    assistant_id: "asst_VY3BYLpzpSI1pidjxSqfN6ta",
     thread: {
-      messages: [{ role: "user", content: "Explain deep learning to a 5 year old." }]
+      messages: [{ role: "user", content: "What is the weather in Los Angeles?" }]
     }
   });
 

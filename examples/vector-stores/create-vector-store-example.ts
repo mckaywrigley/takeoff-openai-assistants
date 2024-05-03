@@ -9,7 +9,7 @@ const openai = new OpenAI({
 
 async function main() {
   const vectorStore = await openai.beta.vectorStores.create({
-    name: "Support FAQ"
+    name: "Feature Ideas"
   });
 
   console.log(vectorStore);

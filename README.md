@@ -1,6 +1,6 @@
 # Takeoff: OpenAI Assistants
 
-In this module we learn how to to make AI agents with the OpenAI Assistants API.
+In this module we learn how to make AI agents with the OpenAI Assistants API.
 
 ## Resources
 

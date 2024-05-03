@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const runs = await openai.beta.threads.runs.list("thread_0v7lp0mG1SCTlXNVX0crlQn3");
+  const runs = await openai.beta.threads.runs.list("thread_vmiP1Kpuu2bj9VAw9LmzyIsJ");
 
   console.log(runs.data);
 }

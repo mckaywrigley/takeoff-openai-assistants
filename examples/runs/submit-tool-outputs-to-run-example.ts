@@ -8,10 +8,10 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const run = await openai.beta.threads.runs.submitToolOutputs("thread_123", "run_123", {
+  const run = await openai.beta.threads.runs.submitToolOutputs("thread_JWtgQ4GySNd8tzb49DyyXiv1", "run_RSoj5rsn5q6muo6MJCMCB9j7", {
     tool_outputs: [
       {
-        tool_call_id: "call_001",
+        tool_call_id: "call_QG6O21ixrJfnZt3Aj32sbI0d",
         output: "70 degrees and sunny."
       }
     ]

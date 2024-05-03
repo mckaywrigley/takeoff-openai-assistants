@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const myThread = await openai.beta.threads.retrieve("thread_0v7lp0mG1SCTlXNVX0crlQn3");
+  const myThread = await openai.beta.threads.retrieve("thread_MGxvQygylIcDd4tlpZ4DifHu");
 
   console.log(myThread);
 }
